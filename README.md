@@ -14,8 +14,8 @@ Our data has been compiled from IMDB, TheMovieDB, and The Numbers.
 
 Data gathered from IMDB included movie genres, average ratings, and the number of votes received. 
 
-!(highest_genre_graph.png)
-!(lowest_genre_graph.png)
+![Highest Ratings Genre Graph](highest_genre_graph.png)
+![Lowest Ratings Genre Graph](lowest_genre_graph.png)
 
 
 * Source of data
