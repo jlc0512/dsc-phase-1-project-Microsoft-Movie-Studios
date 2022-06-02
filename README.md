@@ -10,9 +10,9 @@ Our key stakeholders are the board of Microsoft Movie Studios. The buisness ques
 
 ## Data Understanding and Analysis
 
-Our data has been compiled from IMDB, TheMovieDB, and The Numbers. 
+Our data has been compiled from IMDB, TheMovieDB, Rotten Tomatoes, and The Numbers. 
 
-Data gathered from IMDB included movie genres, average ratings, and the number of votes received. 
+Data gathered from IMDB included movie genres, average ratings, and the number of votes received. The data was joined to view all relevant data on one table. I the median number of votes received (49) as a way to eliminate movies with so few votes that might mean they were not seen by many viewers. I decided to look at the top 50 and bottom 50 rated films to see which genres were most represented in the highest and lowest rated films. We plotted the movie counts for the 50 top rated movies to show that Documentary was the genre with the highest movie count. We also plotted the movie counts for the 50 lowest reated movies to show that Documentaries were not as common in the lowest rated movies.
 
 ![Highest Ratings Genre Graph](highest_genre_graph.png)
 ![Lowest Ratings Genre Graph](lowest_genre_graph.png)
@@ -24,6 +24,6 @@ Data gathered from IMDB included movie genres, average ratings, and the number o
 
 ## Conclusion
 
-* Summary of conclusions including three relevant findings
+Given our analysis, we recommend producing Documentaries 150-200 million dollar budget. If we are looking to producde a Blockbuster, we should look to release our films in June, July, August, November, and December. If we are not looking to compete with Blockbusters, we recommend releasing in the "off months."
 
       
