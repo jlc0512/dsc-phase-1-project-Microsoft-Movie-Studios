@@ -26,5 +26,4 @@ Data gathered from IMDB included movie genres, average ratings, and the number o
 
 * Summary of conclusions including three relevant findings
 
-       
-
+      
