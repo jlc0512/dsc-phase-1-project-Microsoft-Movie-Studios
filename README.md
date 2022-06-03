@@ -67,7 +67,7 @@ Here are other ideas to explore for future analysis:
 - **Investigate success of film adaptations:** Microsoft has many properties that could be adapted to movies. Analysis on adaptation success could help Microsoft leverage those properties.
 
 ## Repository Structure
-
+```
 ├── Working_Notebooks
 │   ├── John_Notebook.ipynb
 │   ├── working_notebook_Yuhkai.ipynb
@@ -99,3 +99,4 @@ Here are other ideas to explore for future analysis:
 ├── notebook.pdf
 ├── presentation.pdf
 └── student.ipynb
+```
