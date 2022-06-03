@@ -66,6 +66,9 @@ Here are other ideas to explore for future analysis:
 - **Streaming Platforms vs Movie Theaters:** Streaming services are becoming increasingly popular. Further analysis can focus specifically on movies released through streaming services.
 - **Investigate success of film adaptations:** Microsoft has many properties that could be adapted to movies. Analysis on adaptation success could help Microsoft leverage those properties.
 
+## Presentation Link
+Link to presentation: ![Presentation](https://docs.google.com/presentation/d/1BLbA84XNdweuNP61H8KBm5f_38YHBNks-7umz7WFUC4/edit?usp=sharing)
+
 ## Repository Structure
 ```
 ├── Working_Notebooks
