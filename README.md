@@ -10,13 +10,13 @@ Our client is a hypothetical new Microsoft Movie Studios. The goal of our analys
 
 ## Data Understanding and Analysis
 
-Our data is stored in a folder named zippedData. The data is sourced from a variety of movie aggregation sites: Box Office Mojo, IMDB, Rotten Tomatoes, TheMovieDB, and The Numbers. 
+Our data is stored in a folder named zippedData. The data is sourced from a variety of movie aggregation sites: IMDB, Box Office Mojo, Rotten Tomatoes, TheMovieDB, and The Numbers. 
 
-The budgets/gross data encompasses a wide range of years. To hone in on more recent market trends, we limited the release window to the last 25 years. This also reduces the effect of inflation on our analysis. While we are starting to see how gross might relate to release month, we can deepen our analysis by relating gross to the production budget. Dividing the difference of 'worldwide_gross' and 'production_budget' by the 'production_budget' created a Return of Investment (ROI) measure. 
+Data gathered from IMDB included movie genres, average ratings, and the number of votes received. The data was joined to view all relevant data on one table. 
 
-Data gathered from IMDB included movie genres, average ratings, and the number of votes received. The data was joined to view all relevant data on one table. We utilized the median number of votes received (49) as a way to eliminate movies with so few votes that might mean they were not seen by many viewers. I decided to look at the top 50 and bottom 50 rated films to see which genres were most represented in the highest and lowest rated films. We plotted the movie counts for the 50 top rated movies to show that Documentary was the genre with the highest movie count. We also plotted the movie counts for the 50 lowest reated movies to show that Documentaries were not as common in the lowest rated movies.
+The data we analyzed from the other sources includes budgets, domestic/worldwide gross, and release date.
 
-## Data Visualization
+## Results
 
 Using the tmdb data, we plotted the popularity score against month to see if any month had more popular movies overall.
 
@@ -63,14 +63,11 @@ Similar to the above graphs but we are now working with worldwide gross instead 
 ![Newer Worldwide Gross Values](new_worldwide.png)
 ![Older Worldwide Gross Values](old_worldwide.png)
 
-For the next two lines of code we wanted to show examples that could be good starting points for Microsoft if they did want to a documentary style films, while not necessarily full documentarys these two films are dramatizations of documentary biographies and could be relevant if Microsoft wanted to do a similar style for a documentary about Bill Gates or tech culture.
-
-In order to achieve this comparison i first made the variable The Social Network.
-After setting the x variable i assigned a stacked bar chart for each and used the seperated variables within the data for each statistic i was looking at within the movie to show a clean bar chart which illustrated the budget and worldwide gross for the movie. A legend to show what each color represents helps differentiate.
+As a particular example, we looked at "The Social Network" as a dramatized documentary-style movie that Microsoft could use as a case-study. The bar chart below shows the wordlwide gross and budget for the film. 
 
 ![The Social Network Budget v Gross](Tech_movies.png)
 
-To visualize the highest rated films by genre, we plotted the movie counts for the 50 top rated movies to show that Documentary was the genre with the highest movie count. We also plotted the movie countws for the 50 lowest reated movies to show that Documentaries were not as common in the lowest rated movies.
+To visualize the highest rated films by genre, we plotted the movie counts for the 50 top rated movies to show that Documentary was the genre with the highest movie count. We also plotted the movie counts for the 50 lowest rated movies to show that Documentaries were not as common in the lowest rated movies.
 
 ![Highest Ratings Genre Graph](highest_genre_graph.png)
 ![Lowest Ratings Genre Graph](lowest_genre_graph.png)
@@ -89,3 +86,5 @@ Here are other ideas to explore for future analysis:
 
 - **Streaming Platforms vs Movie Theaters:** Streaming services are becoming increasingly popular. Further analysis can focus specifically on movies released through streaming services.
 - **Investigate success of film adaptations:** Microsoft has many properties that could be adapted to movies. Analysis on adaptation success could help Microsoft leverage those properties.
+
+
