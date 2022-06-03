@@ -67,7 +67,7 @@ Here are other ideas to explore for future analysis:
 - **Investigate success of film adaptations:** Microsoft has many properties that could be adapted to movies. Analysis on adaptation success could help Microsoft leverage those properties.
 
 ## Presentation Link
-Link to presentation: ![Presentation](https://docs.google.com/presentation/d/1BLbA84XNdweuNP61H8KBm5f_38YHBNks-7umz7WFUC4/edit?usp=sharing)
+Link: [Presentation](https://docs.google.com/presentation/d/1BLbA84XNdweuNP61H8KBm5f_38YHBNks-7umz7WFUC4/edit?usp=sharing)
 
 ## Repository Structure
 ```
