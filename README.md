@@ -54,10 +54,8 @@ We wanted to analyze the relationship between worldwide gross and production bud
 The first graph covers movies in our datasets released before 2005. The second graph covers movies in our datasets released after 2005. No trend is apparent in the pre-2005 graph, while the post-2005 graph displays an upward trend in return on investment.
 In these graphs, a line indicates the 150 million dollar budget mark. Past this threshold, most movies have positive return on investment. 
 
-![Newer Worldwide Gross Values](./visualizations
-/new_worldwide.png)
-![Older Worldwide Gross Values](./visualizations
-/old_worldwide.png)
+![Newer Worldwide Gross Values](./visualizations/new_worldwide.png)
+![Older Worldwide Gross Values](./visualizations/old_worldwide.png)
 
 As a particular example, we looked at "The Social Network" as a dramatized documentary-style movie that Microsoft could use as a case-study. The bar chart below shows the wordlwide gross and budget for the film. 
 
@@ -66,10 +64,8 @@ As a particular example, we looked at "The Social Network" as a dramatized docum
 
 To visualize the highest rated films by genre, we plotted the movie counts for the 50 top rated movies to show that Documentary was the genre with the highest movie count. We also plotted the movie counts for the 50 lowest rated movies to show that Documentaries were not as common in the lowest rated movies.
 
-![Highest Ratings Genre Graph](./visualizations
-/highest_genre_graph.png)
-![Lowest Ratings Genre Graph](./visualizations
-/lowest_genre_graph.png)
+![Highest Ratings Genre Graph](./visualizations/highest_genre_graph.png)
+![Lowest Ratings Genre Graph](./visualizations/lowest_genre_graph.png)
 
 
 ## Conclusion
