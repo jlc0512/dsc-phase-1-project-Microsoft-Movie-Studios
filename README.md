@@ -66,4 +66,36 @@ Here are other ideas to explore for future analysis:
 - **Streaming Platforms vs Movie Theaters:** Streaming services are becoming increasingly popular. Further analysis can focus specifically on movies released through streaming services.
 - **Investigate success of film adaptations:** Microsoft has many properties that could be adapted to movies. Analysis on adaptation success could help Microsoft leverage those properties.
 
+## Repository Structure
 
+├── Working_Notebooks
+│   ├── John_Notebook.ipynb
+│   ├── working_notebook_Yuhkai.ipynb
+├── visualizations
+│   ├── Tech_movies.png
+│   ├── highest_genre_graph.png
+│   ├── lowest_genre_graph.png
+│   ├── median_ROI_month.png
+│   ├── median_movie_gross_month.png
+│   ├── median_movie_gross_month_recent.png
+│   ├── movie_data_erd.jpeg
+│   ├── movies_per_month.png
+│   ├── new_domestic.png
+│   ├── new_worldwide.png
+│   ├── old_domestic.png
+│   └── old_worldwide.png
+├── zippedData
+│   ├── bom.movie_gross.csv.gz
+│   ├── im.db.zip
+│   ├── rt.movie_info.tsv.gz
+│   ├── rt.reviews.tsv.gz
+│   ├── tmdb.movies.csv.gz
+│   └── tn.movie_budgets.csv.gz
+├── .canvas
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── README.md
+├── notebook.pdf
+├── presentation.pdf
+└── student.ipynb
