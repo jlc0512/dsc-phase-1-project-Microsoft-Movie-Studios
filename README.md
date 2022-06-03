@@ -46,19 +46,13 @@ The greatest median ROI of movies based on month was 1.18, lower than any value 
 
 After our analysis of movies based on their release months, we concluded that there are clear months in which movies displayed better financial performance.
 
-We wanted to show the relationship between new domestic gross and production budgets. To do that we first formatted the data
-so that the x and y scales werent based off exponenents by running a formatter and changing the x and y ticks to be more
-accurate to the data being shown. Then we plotted a scatter plot with the x value being budget and y value being gross.
-We added a third element to the scatter plot to further seperate the data, movies that were newer than 2012 were colored
-orange and anything before was colored blue. The domestic values wont be presented because they dont get our point across as well as worldwide gross.
 
-![Newer Domestic Gross Values](new_domestic.png)
+![]()
 
-We wanted to show the same concept as the above graph except this is working with older movies, and the color seperation is before and after 1995.
+We wanted to analyze the relationship between worldwide gross and production budgets. The color separation distinguishes between newer and older movies, to reflect how return on investment trends changes between newer and older movies.
 
-![Older Domestic Gross Values](old_domestic.png)
-
-Similar to the above graphs but we are now working with worldwide gross instead of domestic gross. For the next two graphs, which we will be focusing my presentation about, we made a line to show the fact that many movies past the 150 million budget mark far make more profit than budget so their ROI is much more profitable the more they spend.
+The first graph covers movies in our datasets released before 2005. The second graph covers movies in our datasets released after 2005. No trend is apparent in the pre-2005 graph, while the post-2005 graph displays an upward trend in return on investment.
+In these graphs, a line indicates the 150 million dollar budget mark. Past this threshold, most movies have positive return on investment. 
 
 ![Newer Worldwide Gross Values](new_worldwide.png)
 ![Older Worldwide Gross Values](old_worldwide.png)
