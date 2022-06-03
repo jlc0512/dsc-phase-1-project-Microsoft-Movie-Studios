@@ -18,36 +18,21 @@ The data we analyzed from the other sources includes budgets, domestic/worldwide
 
 ## Results
 
-Using the tmdb data, we plotted the popularity score against month to see if any month had more popular movies overall.
+This bar graph shows the quantity of movies released during that month from data covering 1997 to 2019. December stands out with the greatest number of movie releases, followed by October.
 
-December movies had the highest average popularity score with June's and July's as almost identical runner-ups.
+![Movies per Month](./visualizations/movies_per_month.png)
 
-Another aspect to consider for a movie's release month is the quantity of movies released during that month. This can provide some insight into how popular certain months are and how much competition a movie might have during its release.
+Four notable months stand out as having the highest gross per movie: June, July, November, and December.
 
-Again, December stands out with the greatest number of movie releases. The other 6 months with the most releases are October, September, August, April, and March.
+![Median Movie Gross by Month](./visualizations/median_movie_gross_month_recent.png)
 
-The following stacked bar chart takes our budget/gross dataset and plots the mean gross values grouped by month. A month with a greater mean/median movie gross could indicate more consumers are watching movies during that time.
+After looking at trends in gross data, we added in budget as another variable. Return on investment (ROI) was calculated as the difference between gross and budget, divided by the budget. This provided a ratio of movie profits versus movie costs.
 
-Graphing the same data limited to movies released in the past 25 years revealed similar trends. We focused on the last 25 years to better reflect modern market trends and reduce the effect of inflation.
-
-The similarity between the mean and median charts indicates that these measures are weighted heavily by releases from the past 25 years. May had the strongest performing movies, followed closely by June, July, and November. December lagged behind the front-runner months but still stood significantly above the remaining months.
-
-We also graphed the median movie gross grouped by month. Using the median reduces the effect of super-performer movies such as "Avatar". This can give us a better look at how an "average" movie might perform in a given release window.
-
-May was the most strongly affected by using the median instead of the mean. This indicates that May had some outlier movies with high gross. The median could be a better metric for a fledgling movie studio. 
-
-Now that we've looked at trends in gross data, we added in budget as another variable for consideration. Return on investment (ROI) here was calculated as the difference between gross and budget, divided by the budget. This provided a ratio of movie profits versus movie costs. Similarly to the gross plots, the mean and median ROI for movies grouped by release month were plotted.
-
-July stands out above the rest with a mean ROI of 5.07. The month with the second greatest mean ROI is May at 3.68. After plotting the median ROI of movies against their release month, we saw how ROI is greatly affected by overperformers.
-
-June, July, November, and December also had high mean gross, a trend reflected by the median gross as well. Based on this analysis, we could say that movies releasing in these 4 months generally experienced the best gross performance. 
-
-The greatest median ROI of movies based on month was 1.18, lower than any value of the mean ROIs. The difference between the means and medians reflects how uncertain the movie market is. Movies that excel can return great profits but are not the norm. Only three months had median ROIs that surpassed the break-even ratio of 1.0.  Here we see the best performing months match those highlighted in our median gross by month analysis. June, July, November, and December return as the best performers.
+Only three months had median ROIs that surpassed the break-even ratio of 1.0.  We found the best performing months match those highlighted in our median gross by month analysis. June, July, November, and December return as the best performers.
 
 After our analysis of movies based on their release months, we concluded that there are clear months in which movies displayed better financial performance.
 
-
-![]()
+![Median ROI by month](./visualizations/median_ROI_month.png)
 
 We wanted to analyze the relationship between worldwide gross and production budgets. The color separation distinguishes between newer and older movies, to reflect how return on investment trends changes between newer and older movies.
 
